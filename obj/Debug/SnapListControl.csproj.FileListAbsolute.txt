@@ -1,0 +1,10 @@
+F:\项目\视频结构化客户端\人脸\SnapListControl\obj\Debug\SnapListControl.g.cs
+F:\项目\视频结构化客户端\人脸\SnapListControl\obj\Debug\SnapListControl_MarkupCompile.cache
+F:\项目\视频结构化客户端\人脸\SnapListControl\obj\Debug\SnapListControl_MarkupCompile.lref
+F:\项目\视频结构化客户端\人脸\SnapListControl\bin\Debug\SnapListControl.dll
+F:\项目\视频结构化客户端\人脸\SnapListControl\bin\Debug\SnapListControl.pdb
+F:\项目\视频结构化客户端\人脸\SnapListControl\obj\Debug\SnapListControl.baml
+F:\项目\视频结构化客户端\人脸\SnapListControl\obj\Debug\SnapListControl.g.resources
+F:\项目\视频结构化客户端\人脸\SnapListControl\obj\Debug\SnapListControl.dll
+F:\项目\视频结构化客户端\人脸\SnapListControl\obj\Debug\SnapListControl.pdb
+F:\项目\视频结构化客户端\人脸\SnapListControl\obj\Debug\GeneratedInternalTypeHelper.g.cs

@@ -1,0 +1,34 @@
+﻿<Window x:Class="Demo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Demo"
+        xmlns:UtilCtrl="clr-namespace:SmoothListView;assembly=SmoothListView"
+        mc:Ignorable="d"
+        Title="SmoothScrollingDemo" Height="600" Width="800" Loaded="Window_Loaded" Closing="Window_Closing">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="200"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <UtilCtrl:RecordListControl x:Name="VerticalList1" Orient="Vertical" 
+                                    ItemCount="2" DataPresenter="{StaticResource faceItemTemplate}"/>
+            <UtilCtrl:RecordListControl x:Name="VerticalList2" Grid.Column="1" Orient="Vertical" 
+                                    ItemCount="2" DataPresenter="{StaticResource faceItemTemplate}"/>
+            <UtilCtrl:RecordListControl x:Name="VerticalList3" Grid.Column="2" Orient="Vertical" 
+                                    ItemCount="2" DataPresenter="{StaticResource faceItemTemplate}"/>
+            <UtilCtrl:RecordListControl x:Name="VerticalList4" Grid.Column="3" Orient="Vertical" 
+                                    ItemCount="2" DataPresenter="{StaticResource faceItemTemplate}"/>
+        </Grid> 
+        <UtilCtrl:RecordListControl x:Name="HorizontalList" Grid.Row="1" Orient="Horizontal" 
+                                    ItemCount="4" DataPresenter="{StaticResource faceItemTemplate}"/>
+    </Grid>
+</Window>
