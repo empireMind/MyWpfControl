@@ -5,7 +5,7 @@ a customized listview which scrolls smoothly
 
 我的邮箱是topxc1124@foxmail.com 欢迎交流！
 
-This is a simple customized wpf listview, which can scroll smoothly while new items adds in. 
-Your can choose orinetation like using wpf stackpanel, and set how many items you want to show. It also supports customized datatemplate.
+This is a simple customized wpf listview, which can scroll smoothly when new items adds in. 
+Your may choose orinetation like using wpf stackpanel, and set how many items you want to show. It also supports customized datatemplate.
 
-My email is topxc1124@foxmail.com. All suggestions and feedbacks are welcomed!
+My email is topxc1124@foxmail.com. All suggestions and feedbacks are welcome!
